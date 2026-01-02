@@ -19,6 +19,7 @@ if (-not ([Security.Principal.WindowsIdentity]::GetCurrent().Groups -contains 'S
     Write-Host -ForegroundColor Yellow "Requesting administrative privileges..."
     $scriptPath = $MyInvocation.MyCommand.Path
     $argList = @()
+    $argList += "-NoExit"
     if ($scriptPath) {
         $argList += "-ExecutionPolicy Bypass"
         $argList += "-File `"$scriptPath`""

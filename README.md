@@ -9,10 +9,10 @@
 </p>
 <hr>
 
-> 本分支修改内容：自动提权，显示下载进度，使用最新的538.0.0.0 USB驱动，单独上传AppleMobileDeviceSupport64.msi 方便离线安装。
+> 本分支修改内容：显示下载进度，使用最新的538.0.0.0 USB驱动，单独上传AppleMobileDeviceSupport64.msi 方便离线安装。
 
 ## 脚本安装
-- 打开 **PowerShell**（或 Windows Terminal 的 PowerShell）。
+- 管理员运行 **PowerShell**（或 Windows Terminal 的 PowerShell）。
 - 粘贴并回车：
   ```
   iex (Invoke-RestMethod -Uri 'https://raw.githubusercontent.com/honue/Apple-Mobile-Drivers-Installer/main/AppleDrivInstaller.ps1')
